@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music for everyone</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <i data-lucide="music" class="logo-icon"></i>
+        <span>Spotify</span>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" placeholder="What do you want to play?" id="search-input">
+        <button id="search-btn">
+            <i data-lucide="search"></i>
+        </button>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Download</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero">
+            <h1>Music for everyone</h1>
+            <p>Millions of songs. No credit card needed.</p>
+            <button class="cta-button">GET SPOTIFY FREE</button>
+        </section>
+
+        <section class="features">
+            <h2>Why Spotify?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i data-lucide="headphones" class="feature-icon"></i>
+                    <h3>Play your favorites</h3>
+                    <p>Listen to the songs you love, and discover new music and podcasts.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="radio" class="feature-icon"></i>
+                    <h3>Playlists made easy</h3>
+                    <p>We'll help you make playlists. Or enjoy playlists made by music experts.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="users" class="feature-icon"></i>
+                    <h3>Make it yours</h3>
+                    <p>Tell us what you like, and we'll recommend music for you.</p>
+                </div>
+                <div class="feature-card">
+                    <i data-lucide="music" class="feature-icon"></i>
+                    <h3>Save mobile data</h3>
+                    <p>To use less data when you play music, turn on Data Saver in Settings.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Ready? Let's play.</h2>
+            <button class="cta-button">GET SPOTIFY FREE</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Spotify </p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
