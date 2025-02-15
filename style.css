@@ -129,9 +129,10 @@ h1 {
 .cta-button:hover {
   background-color: #1ed760;
 }
-
-.features {
-  padding: 80px 20px;
+.text{
+  display: flex;
+  text-align: left;
+  padding-left: 80px;
 }
 
 h2 {
@@ -142,8 +143,8 @@ h2 {
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(7, 1fr); /* 5 equal columns */
+  gap: 5px;
 }
 
 .feature-card {
@@ -234,4 +235,23 @@ footer {
 
 .search-bar button i {
   font-size: 18px;
+}
+
+/* Add this style for the feature images */
+.feature-image {
+  width: 190px; /* Make the image responsive */
+  max-width: 400px; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */ 
+  border-radius: 10px; /* Optional: Add rounded corners */
+  margin-bottom: 0; /* Add spacing below the image */
+}
+.fi{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+.fii{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
 }
