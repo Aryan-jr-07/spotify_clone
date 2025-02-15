@@ -121,7 +121,7 @@ h3 {
 .cta {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(to right, #1db954, #1ed760);
+  /* background: linear-gradient(to right, #1db954, #1ed760); */
 }
 
 footer {
