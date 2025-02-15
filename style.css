@@ -12,8 +12,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: var(--spotify-black);
-  color: var(--spotify-white);
+  background-color: #191414;
+  color: #FFFFFF;
   line-height: 1.6;
 }
 
@@ -25,6 +25,49 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.signup-btn {
+  background-color: #1DB954;
+  color: #191414;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #1ed760;
+  color: #191414;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #FFFFFF;
+  color: #191414;
+}
+
+nav ul li {
+  margin-left: 15px; /* Adjust spacing between nav items */
+}
+
+/* line between download and sign -up */
+.separator {
+  display: inline-block;
+  height: 20px; 
+  width: 1px; 
+  background-color: var(--spotify-white); 
+  margin: 0 15px; 
+  opacity: 0.5; 
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -33,7 +76,7 @@ header {
 }
 
 .logo-icon {
-  color: var(--spotify-green);
+  color: #1DB954;
   margin-right: 10px;
 }
 
@@ -47,13 +90,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--spotify-white);
+  color: #FFFFFF;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: var(--spotify-green);
+  color: #1DB954;
 }
 
 .hero {
@@ -72,8 +115,8 @@ h1 {
 }
 
 .cta-button {
-  background-color: var(--spotify-green);
-  color: var(--spotify-black);
+  background-color: #1DB954;
+  color: #191414;
   border: none;
   padding: 15px 30px;
   font-size: 16px;
@@ -108,7 +151,7 @@ h2 {
 }
 
 .feature-icon {
-  color: var(--spotify-green);
+  color: #1DB954;
   font-size: 48px;
   margin-bottom: 20px;
 }
@@ -141,6 +184,7 @@ footer {
   }
 
   .hero h1 {
+    
     font-size: 36px;
   }
 
@@ -175,7 +219,7 @@ footer {
   border: none;
   outline: none;
   background: transparent;
-  color: var(--spotify-white);
+  color: #FFFFFF;
   padding: 10px;
   width: 100%;
   font-size: 18px;
@@ -185,7 +229,7 @@ footer {
   background: none;
   border: none;
   cursor: pointer;
-  color: var(--spotify-white);
+  color: #FFFFFF;
 }
 
 .search-bar button i {
