@@ -87,7 +87,7 @@ nav ul li {
   display: inline-block;
   height: 20px; 
   width: 1px; 
-  background-color: var(--spotify-white); 
+  background-color: #FFFFFF ; 
   margin: 0 15px; 
   opacity: 0.5; 
 }
@@ -291,7 +291,7 @@ footer {
   gap: 20px; /* Add spacing between items */
   padding: 20px 0; /* Add padding for better spacing */
   scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: var(--spotify-green) rgba(255, 255, 255, 0.1); /* For Firefox */
+  scrollbar-color: #1DB954 rgba(255, 255, 255, 0.1); /* For Firefox */
 }
 
 /* Custom scrollbar for Webkit browsers (Chrome, Safari) */
@@ -305,7 +305,7 @@ footer {
 }
 
 .feature-grid::-webkit-scrollbar-thumb {
-  background: var(--spotify-green); /* Thumb color */
+  background: #1DB954; /* Thumb color */
   border-radius: 10px;
 }
 
@@ -349,7 +349,7 @@ footer {
 /* New Music and Podcasts Container */
 .music-podcasts {
   padding: 40px 20px;
-  background-color: var(--spotify-black);
+  background-color: #191414;
 }
 
 .music-podcasts-header {
@@ -360,13 +360,13 @@ footer {
 
 .music-podcasts-header h2 {
   font-size: 24px;
-  color: var(--spotify-white);
+  color: #FFFFFF ;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .music-podcasts-header h2:hover {
-  color: var(--spotify-green);
+  color: #1DB954;
 }
 
 .music-podcasts-grid {
@@ -393,7 +393,7 @@ footer {
 
 .music-podcasts-card h3 {
   font-size: 18px;
-  color: var(--spotify-white);
+  color: #FFFFFF ;
 }
 
 
